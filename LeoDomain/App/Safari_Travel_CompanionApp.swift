@@ -4,12 +4,7 @@ import SwiftUI
 struct Safari_Travel_CompanionApp: App {
     var body: some Scene {
         WindowGroup {
-            LoadingScreen()
-                .preferredColorScheme(.light)
+            AppContentView()
         }
     }
-}
-
-#Preview {
-    LoadingScreen()
 }
